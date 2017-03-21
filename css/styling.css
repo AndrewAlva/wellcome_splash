@@ -1,0 +1,274 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+#wellcomeWrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  #wellcomeWrap .mainSections {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    /* Fix for IE7 */
+    *display: inline;
+    /* Fix for IE7 */ }
+  #wellcomeWrap #firstBlock #wellcomeLogo {
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 135px; }
+    #wellcomeWrap #firstBlock #wellcomeLogo img {
+      width: 100%; }
+  #wellcomeWrap #firstBlock #wellcomeMail {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    text-align: center; }
+    #wellcomeWrap #firstBlock #wellcomeMail a {
+      font-size: 18px;
+      text-decoration: none;
+      color: #ea4544; }
+  #wellcomeWrap #firstBlock #wellcomeSocial {
+    position: absolute;
+    width: 114px;
+    height: 38px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 9%;
+    list-style: none;
+    padding: 0; }
+    #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a {
+      display: block; }
+      #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a img {
+        width: 100%; }
+    #wellcomeWrap #firstBlock #wellcomeSocial .fb {
+      float: left; }
+    #wellcomeWrap #firstBlock #wellcomeSocial .ig {
+      float: right; }
+  #wellcomeWrap #secondBlock .innerSections {
+    position: relative;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    /* Fix for IE7 */
+    *display: inline;
+    /* Fix for IE7 */
+    width: 100%; }
+    #wellcomeWrap #secondBlock .innerSections .innerColumns:first-child {
+      padding-right: 5px; }
+    #wellcomeWrap #secondBlock .innerSections .innerColumns:last-child {
+      padding-left: 5px; }
+    #wellcomeWrap #secondBlock .innerSections .innerColumns {
+      position: relative;
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1;
+      /* Fix for IE7 */
+      *display: inline;
+      /* Fix for IE7 */
+      height: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule {
+        display: block;
+        width: 100%;
+        overflow: hidden; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .picture {
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .polancoModule {
+          background-color: #bbe7ef; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .chapultepecModule {
+          background-color: #ffbe34; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .reformaModule {
+          background-color: #ea4544; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          overflow: hidden; }
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer .isotype {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0; }
+  #wellcomeWrap #secondBlock .headBlock {
+    height: 25.92%;
+    padding-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    #wellcomeWrap #secondBlock .headBlock .innerColumns {
+      width: 50%; }
+      #wellcomeWrap #secondBlock .headBlock .innerColumns .innerModule {
+        height: 100%; }
+  #wellcomeWrap #secondBlock .bodyBlock {
+    height: 74.08%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+      width: 37.5%; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+      width: 25%;
+      padding-left: 5px;
+      padding-right: 5px; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:last-child {
+      width: 37.5%; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:first-child, #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(2) {
+      height: 35%;
+      padding-bottom: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(3) {
+      height: 30%; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:first-child {
+      height: 51.87%;
+      padding-bottom: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:nth-child(2) {
+      height: 48.12%; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .rightDetail {
+      float: right; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .leftDetail {
+      float: left; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .centerDetail {
+      position: absolute;
+      margin: auto;
+      right: 0;
+      bottom: 0;
+      top: 0; }
+
+/*==========  Non-Mobile First Method  ==========*/
+/*==========  Horizontal Response Method  ==========*/
+/* Largest Devices, Wide Screens */
+@media only screen and (max-width: 1600px) {
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+    width: 63.77%; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+    width: 36.22%;
+    padding-right: 0px; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:last-child {
+    display: none;
+    width: 0%; } }
+@media only screen and (max-width: 960px) {
+  #wellcomeWrap #secondBlock .headBlock .innerColumns:first-child {
+    width: 100%;
+    padding-right: 0; }
+  #wellcomeWrap #secondBlock .headBlock .innerColumns:last-child {
+    width: 0%;
+    display: none; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+    width: 50%; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+    width: 50%; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #wellcomeWrap #firstBlock #wellcomeLogo {
+    width: 61.8%; }
+  #wellcomeWrap #firstBlock #wellcomeMail a {
+    font-size: 14px; }
+  #wellcomeWrap #firstBlock #wellcomeSocial {
+    width: 75px;
+    height: 25px; }
+    #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons {
+      width: 25px;
+      height: 25px; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+    display: none;
+    width: 0%; }
+  #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+    width: 100%;
+    padding-left: 0px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #wellcomeWrap .mainSections {
+    width: 100%;
+    height: 50%; }
+  #wellcomeWrap #firstBlock #wellcomeLogo {
+    width: 205px;
+    height: 32px;
+    bottom: 20px; }
+  #wellcomeWrap #firstBlock #wellcomeMail {
+    top: 40%; }
+  #wellcomeWrap #firstBlock #wellcomeSocial {
+    bottom: 5%;
+    width: 60px;
+    height: 20px; }
+    #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons {
+      width: 20px;
+      height: 20px; }
+  #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .picture {
+    max-width: 200%; }
+  #wellcomeWrap #secondBlock .headBlock, #wellcomeWrap #secondBlock .bodyBlock {
+    height: 50%; }
+  #wellcomeWrap #secondBlock .headBlock {
+    padding-bottom: 5px; }
+    #wellcomeWrap #secondBlock .headBlock .innerColumns:first-child {
+      width: 50%;
+      padding-right: 5px; }
+    #wellcomeWrap #secondBlock .headBlock .innerColumns:last-child {
+      width: 50%;
+      display: block; }
+  #wellcomeWrap #secondBlock .bodyBlock {
+    padding-top: 5px; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+      display: block;
+      width: 100%;
+      padding-right: 0; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child .innerModule:first-child, #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child .innerModule:nth-child(2) {
+        width: 50%;
+        height: 100%;
+        padding-bottom: 0;
+        position: relative;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        /* Fix for IE7 */
+        *display: inline;
+        /* Fix for IE7 */ }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child .innerModule:first-child {
+        padding-right: 5px; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child .innerModule:nth-child(2) {
+        padding-left: 5px; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child .innerModule:nth-child(3) {
+        width: 0;
+        display: none; }
+    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+      width: 0%;
+      display: none; } }
+/*==========  Vertical Response Method  ==========*/
+@media only screen and (max-height: 768px) {
+  #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer .isotype {
+    height: 76.8%; } }
+
+/*# sourceMappingURL=styling.css.map */

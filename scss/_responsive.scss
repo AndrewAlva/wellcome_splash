@@ -1,0 +1,207 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/*==========  Horizontal Response Method  ==========*/
+
+/* Largest Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+    #wellcomeWrap{
+        #secondBlock{
+            .bodyBlock{
+                .innerColumns:first-child{
+                    width: 63.77%;
+                }.innerColumns:nth-child(2){
+                    width: 36.22%;
+                    padding-right: 0px;
+                }.innerColumns:last-child{
+                    display: none;
+                    width: 0%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 960px) {
+    #wellcomeWrap{
+        #secondBlock{
+            .headBlock{
+                .innerColumns:first-child{
+                    width: 100%;
+                    padding-right: 0;
+                }
+                .innerColumns:last-child{
+                    width: 0%;
+                    display: none;
+                }
+            }
+
+            .bodyBlock{
+                .innerColumns:first-child{
+                    width: 50%;
+                }.innerColumns:nth-child(2){
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #wellcomeWrap{
+        #firstBlock{
+            #wellcomeLogo{
+                width: 61.8%;
+            }
+
+            #wellcomeMail{
+                a{
+                    font-size: 14px;
+                }
+            }
+
+            #wellcomeSocial{
+                width: 75px;
+                height: 25px;
+
+                .socialIcons{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+
+        #secondBlock{
+            .bodyBlock{
+                .innerColumns:first-child{
+                    display: none;
+                    width: 0%;
+                }.innerColumns:nth-child(2){
+                    width: 100%;
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #wellcomeWrap{
+        .mainSections{
+            width: 100%;
+            height: 50%;
+        }
+
+        #firstBlock{
+            #wellcomeLogo{
+                width: 205px;
+                height: 32px;
+                bottom: 20px;
+            }
+
+            #wellcomeMail{
+                top: 40%;
+            }
+
+            #wellcomeSocial{
+                bottom: 5%;
+                width: 60px;
+                height: 20px;
+
+                .socialIcons{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        #secondBlock{
+            .innerSections{
+                .innerColumns{
+                    .innerModule{
+                        .picture{
+                            max-width: 200%;
+                        }
+                        .imgContainer{
+                            .isotype{
+                                // height: 76.8%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .headBlock, .bodyBlock{
+                height: 50%;
+            }
+
+            .headBlock{
+                padding-bottom: 5px;
+
+                .innerColumns:first-child{
+                    width: 50%;
+                    padding-right: 5px;
+                }
+                .innerColumns:last-child{
+                    width: 50%;
+                    display: block;
+                }
+            }
+
+            .bodyBlock{
+                padding-top: 5px;
+
+                .innerColumns:first-child{
+                    display: block;
+                    width: 100%;
+                    padding-right: 0;
+
+                    .innerModule:first-child, .innerModule:nth-child(2){
+                        width: 50%;
+                        height: 100%;
+                        padding-bottom: 0;
+                        @include displayLeft();
+                    }
+
+                    .innerModule:first-child{
+                        padding-right: 5px;
+                    }
+                    .innerModule:nth-child(2){
+                        padding-left: 5px;
+                    }
+
+                    .innerModule:nth-child(3){
+                        width: 0;
+                        display: none;
+                    }
+                }
+
+                .innerColumns:nth-child(2){
+                    width: 0%;
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*==========  Vertical Response Method  ==========*/
+@media only screen and (max-height : 768px){
+    #wellcomeWrap {
+        #secondBlock {
+            .innerSections {
+                .innerColumns {
+                    .innerModule {
+                        .imgContainer {
+                            .isotype{
+                                height: 76.8%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
