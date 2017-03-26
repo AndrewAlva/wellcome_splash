@@ -33,8 +33,9 @@
       width: 100%; }
   #wellcomeWrap #firstBlock #wellcomeMail {
     position: absolute;
-    width: 200px;
-    height: 20px;
+    width: 260px;
+    height: 85px;
+    line-height: 3em;
     margin: auto;
     left: 0;
     right: 0;
@@ -42,6 +43,7 @@
     bottom: 0;
     text-align: center; }
     #wellcomeWrap #firstBlock #wellcomeMail a {
+      display: block;
       font-size: 18px;
       text-decoration: none;
       color: #ea4544; }
@@ -99,11 +101,11 @@
           min-height: 100%;
           width: auto;
           height: auto; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .polancoModule {
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #polancoModule {
           background-color: #bbe7ef; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .chapultepecModule {
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #chapultepecModule {
           background-color: #ffbe34; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .reformaModule {
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #reformaModule {
           background-color: #ea4544; }
         #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer {
           position: relative;
@@ -194,8 +196,11 @@
 @media only screen and (max-width: 768px) {
   #wellcomeWrap #firstBlock #wellcomeLogo {
     width: 61.8%; }
-  #wellcomeWrap #firstBlock #wellcomeMail a {
-    font-size: 14px; }
+  #wellcomeWrap #firstBlock #wellcomeMail {
+    height: 40px;
+    line-height: 1.3em; }
+    #wellcomeWrap #firstBlock #wellcomeMail a {
+      font-size: 14px; }
   #wellcomeWrap #firstBlock #wellcomeSocial {
     width: 75px;
     height: 25px; }
