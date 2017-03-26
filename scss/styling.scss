@@ -27,7 +27,10 @@ $wGreen: #ccda9d;
 	}
 
 	#firstBlock{
-		// background-color: #ff6600;
+		background-color: #fff;
+		z-index: 1000;
+		@include transitions(all, 0.8s, ease-in);
+
 		#wellcomeLogo{
 			position: absolute;
 			width: 280px;
@@ -214,9 +217,7 @@ $wGreen: #ccda9d;
 
 
 // Animation Classes
-.mainFadeIn{
-	
-}
+@import 'animations';
 
 
 // Responsive Styles

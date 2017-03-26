@@ -20,51 +20,59 @@
     /* Fix for IE7 */
     *display: inline;
     /* Fix for IE7 */ }
-  #wellcomeWrap #firstBlock #wellcomeLogo {
-    position: absolute;
-    width: 280px;
-    height: 44px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 135px; }
-    #wellcomeWrap #firstBlock #wellcomeLogo img {
-      width: 100%; }
-  #wellcomeWrap #firstBlock #wellcomeMail {
-    position: absolute;
-    width: 260px;
-    height: 85px;
-    line-height: 3em;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 50%;
-    bottom: 0;
-    text-align: center; }
-    #wellcomeWrap #firstBlock #wellcomeMail a {
-      display: block;
-      font-size: 18px;
-      text-decoration: none;
-      color: #ea4544; }
-  #wellcomeWrap #firstBlock #wellcomeSocial {
-    position: absolute;
-    width: 114px;
-    height: 38px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 9%;
-    list-style: none;
-    padding: 0; }
-    #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a {
-      display: block; }
-      #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a img {
+  #wellcomeWrap #firstBlock {
+    background-color: #fff;
+    z-index: 1000;
+    -webkit-transition: all 0.8s ease-in;
+    -moz-transition: all 0.8s ease-in;
+    -ms-transition: all 0.8s ease-in;
+    -o-transition: all 0.8s ease-in;
+    transition: all 0.8s ease-in; }
+    #wellcomeWrap #firstBlock #wellcomeLogo {
+      position: absolute;
+      width: 280px;
+      height: 44px;
+      margin: auto;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 135px; }
+      #wellcomeWrap #firstBlock #wellcomeLogo img {
         width: 100%; }
-    #wellcomeWrap #firstBlock #wellcomeSocial .fb {
-      float: left; }
-    #wellcomeWrap #firstBlock #wellcomeSocial .ig {
-      float: right; }
+    #wellcomeWrap #firstBlock #wellcomeMail {
+      position: absolute;
+      width: 260px;
+      height: 85px;
+      line-height: 3em;
+      margin: auto;
+      left: 0;
+      right: 0;
+      top: 50%;
+      bottom: 0;
+      text-align: center; }
+      #wellcomeWrap #firstBlock #wellcomeMail a {
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+        color: #ea4544; }
+    #wellcomeWrap #firstBlock #wellcomeSocial {
+      position: absolute;
+      width: 114px;
+      height: 38px;
+      margin: auto;
+      left: 0;
+      right: 0;
+      bottom: 9%;
+      list-style: none;
+      padding: 0; }
+      #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a {
+        display: block; }
+        #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a img {
+          width: 100%; }
+      #wellcomeWrap #firstBlock #wellcomeSocial .fb {
+        float: left; }
+      #wellcomeWrap #firstBlock #wellcomeSocial .ig {
+        float: right; }
   #wellcomeWrap #secondBlock .innerSections {
     position: relative;
     float: left;
@@ -168,6 +176,10 @@
       right: 0;
       bottom: 0;
       top: 0; }
+
+#wellcomeWrap .introAnimation {
+  position: absolute;
+  width: 100%; }
 
 /*==========  Non-Mobile First Method  ==========*/
 /*==========  Horizontal Response Method  ==========*/
