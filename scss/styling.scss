@@ -20,16 +20,17 @@ $wGreen: #ccda9d;
 	overflow: hidden;
 
 	.mainSections{
-		position: relative;
+		position: absolute;
 		width: 50%;
 		height: 100%;
-		@include displayLeft();
 	}
 
 	#firstBlock{
+		top: 0;
+		left: 0;
 		background-color: #fff;
 		z-index: 1000;
-		@include transitions(all, 0.8s, ease-in);
+		@include transitions(all, 1.8s, cubic-bezier(.36,.01,.06,.99));
 
 		#wellcomeLogo{
 			position: absolute;
@@ -39,6 +40,7 @@ $wGreen: #ccda9d;
 			left: 0; right: 0;
 			top: 0;
 			bottom: 135px;
+			@include transitions(all, 0.7s, ease-out);
 
 			img{
 				width: 100%;
@@ -61,6 +63,7 @@ $wGreen: #ccda9d;
 				font-size: 18px;
 				text-decoration: none;
 				color: $wRed;
+				@include transitions(all, 0.7s, ease-out);
 			}
 		}
 
@@ -75,6 +78,8 @@ $wGreen: #ccda9d;
 			padding: 0;
 
 			.socialIcons{
+				@include transitions(all, 0.7s, ease-out);
+
 				a{
 					display: block;
 
@@ -95,7 +100,9 @@ $wGreen: #ccda9d;
 	}
 
 	#secondBlock{
-		// background-color: #0066ff;
+		right: 0;
+		bottom: 0;
+
 		.innerSections{
 			@include displayLeft();
 			width: 100%;
@@ -139,6 +146,7 @@ $wGreen: #ccda9d;
 						width: 100%;
 						height: 100%;
 						overflow: hidden;
+						@include transitions(all, 0.7s, ease-out);
 
 						.isotype{
 							@include centerThis();

@@ -1,6 +1,32 @@
+// INTRO ANIMATIONS
+
 #wellcomeWrap{
-	.introAnimation{
-		position: absolute;
+	._a_fullWidth{
 		width: 100%;
 	}
+
+	._a_fadeIn-up{
+		opacity: 0;
+		-webkit-transform: translate(0, 100px);
+		   -moz-transform: translate(0, 100px);
+		    -ms-transform: translate(0, 100px);
+		     -o-transform: translate(0, 100px);
+		        transform: translate(0, 100px);
+	}
+
+	._a_fadeIn-down-blocks{
+		opacity: 0;
+		-webkit-transform: translate(0, -50px);
+		   -moz-transform: translate(0, -50px);
+		    -ms-transform: translate(0, -50px);
+		     -o-transform: translate(0, -50px);
+		        transform: translate(0, -50px);
+	}
 }
+
+
+// COLOURS ANIMATIONS
+.redText{color: $wRed;}
+.blueText{color: $wBlue;}
+.yellowText{color: $wYellow;}
+.greenText{color: $wGreen;}

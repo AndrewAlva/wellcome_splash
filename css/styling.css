@@ -9,25 +9,19 @@
   padding: 0;
   overflow: hidden; }
   #wellcomeWrap .mainSections {
-    position: relative;
+    position: absolute;
     width: 50%;
-    height: 100%;
-    position: relative;
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    /* Fix for IE7 */
-    *display: inline;
-    /* Fix for IE7 */ }
+    height: 100%; }
   #wellcomeWrap #firstBlock {
+    top: 0;
+    left: 0;
     background-color: #fff;
     z-index: 1000;
-    -webkit-transition: all 0.8s ease-in;
-    -moz-transition: all 0.8s ease-in;
-    -ms-transition: all 0.8s ease-in;
-    -o-transition: all 0.8s ease-in;
-    transition: all 0.8s ease-in; }
+    -webkit-transition: all 1.8s cubic-bezier(0.36, 0.01, 0.06, 0.99);
+    -moz-transition: all 1.8s cubic-bezier(0.36, 0.01, 0.06, 0.99);
+    -ms-transition: all 1.8s cubic-bezier(0.36, 0.01, 0.06, 0.99);
+    -o-transition: all 1.8s cubic-bezier(0.36, 0.01, 0.06, 0.99);
+    transition: all 1.8s cubic-bezier(0.36, 0.01, 0.06, 0.99); }
     #wellcomeWrap #firstBlock #wellcomeLogo {
       position: absolute;
       width: 280px;
@@ -36,7 +30,12 @@
       left: 0;
       right: 0;
       top: 0;
-      bottom: 135px; }
+      bottom: 135px;
+      -webkit-transition: all 0.7s ease-out;
+      -moz-transition: all 0.7s ease-out;
+      -ms-transition: all 0.7s ease-out;
+      -o-transition: all 0.7s ease-out;
+      transition: all 0.7s ease-out; }
       #wellcomeWrap #firstBlock #wellcomeLogo img {
         width: 100%; }
     #wellcomeWrap #firstBlock #wellcomeMail {
@@ -54,7 +53,12 @@
         display: block;
         font-size: 18px;
         text-decoration: none;
-        color: #ea4544; }
+        color: #ea4544;
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out; }
     #wellcomeWrap #firstBlock #wellcomeSocial {
       position: absolute;
       width: 114px;
@@ -65,29 +69,24 @@
       bottom: 9%;
       list-style: none;
       padding: 0; }
-      #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a {
-        display: block; }
-        #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a img {
-          width: 100%; }
+      #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons {
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out; }
+        #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a {
+          display: block; }
+          #wellcomeWrap #firstBlock #wellcomeSocial .socialIcons a img {
+            width: 100%; }
       #wellcomeWrap #firstBlock #wellcomeSocial .fb {
         float: left; }
       #wellcomeWrap #firstBlock #wellcomeSocial .ig {
         float: right; }
-  #wellcomeWrap #secondBlock .innerSections {
-    position: relative;
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    /* Fix for IE7 */
-    *display: inline;
-    /* Fix for IE7 */
-    width: 100%; }
-    #wellcomeWrap #secondBlock .innerSections .innerColumns:first-child {
-      padding-right: 5px; }
-    #wellcomeWrap #secondBlock .innerSections .innerColumns:last-child {
-      padding-left: 5px; }
-    #wellcomeWrap #secondBlock .innerSections .innerColumns {
+  #wellcomeWrap #secondBlock {
+    right: 0;
+    bottom: 0; }
+    #wellcomeWrap #secondBlock .innerSections {
       position: relative;
       float: left;
       display: inline-block;
@@ -96,90 +95,134 @@
       /* Fix for IE7 */
       *display: inline;
       /* Fix for IE7 */
-      height: 100%;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-      #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule {
-        display: block;
-        width: 100%;
-        overflow: hidden; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .picture {
-          min-width: 100%;
-          min-height: 100%;
-          width: auto;
-          height: auto; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #polancoModule {
-          background-color: #bbe7ef; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #chapultepecModule {
-          background-color: #ffbe34; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #reformaModule {
-          background-color: #ea4544; }
-        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer {
-          position: relative;
+      width: 100%; }
+      #wellcomeWrap #secondBlock .innerSections .innerColumns:first-child {
+        padding-right: 5px; }
+      #wellcomeWrap #secondBlock .innerSections .innerColumns:last-child {
+        padding-left: 5px; }
+      #wellcomeWrap #secondBlock .innerSections .innerColumns {
+        position: relative;
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        /* Fix for IE7 */
+        *display: inline;
+        /* Fix for IE7 */
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule {
+          display: block;
           width: 100%;
-          height: 100%;
           overflow: hidden; }
-          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer .isotype {
-            position: absolute;
-            margin: auto;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0; }
-  #wellcomeWrap #secondBlock .headBlock {
-    height: 25.92%;
-    padding-bottom: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    #wellcomeWrap #secondBlock .headBlock .innerColumns {
-      width: 50%; }
-      #wellcomeWrap #secondBlock .headBlock .innerColumns .innerModule {
-        height: 100%; }
-  #wellcomeWrap #secondBlock .bodyBlock {
-    height: 74.08%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
-      width: 37.5%; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
-      width: 25%;
-      padding-left: 5px;
-      padding-right: 5px; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns:last-child {
-      width: 37.5%; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:first-child, #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(2) {
-      height: 35%;
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .picture {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto; }
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #polancoModule {
+            background-color: #bbe7ef; }
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #chapultepecModule {
+            background-color: #ffbe34; }
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule #reformaModule {
+            background-color: #ea4544; }
+          #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            -webkit-transition: all 0.7s ease-out;
+            -moz-transition: all 0.7s ease-out;
+            -ms-transition: all 0.7s ease-out;
+            -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out; }
+            #wellcomeWrap #secondBlock .innerSections .innerColumns .innerModule .imgContainer .isotype {
+              position: absolute;
+              margin: auto;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0; }
+    #wellcomeWrap #secondBlock .headBlock {
+      height: 25.92%;
       padding-bottom: 10px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(3) {
-      height: 30%; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:first-child {
-      height: 51.87%;
-      padding-bottom: 10px;
+      #wellcomeWrap #secondBlock .headBlock .innerColumns {
+        width: 50%; }
+        #wellcomeWrap #secondBlock .headBlock .innerColumns .innerModule {
+          height: 100%; }
+    #wellcomeWrap #secondBlock .bodyBlock {
+      height: 74.08%;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:nth-child(2) {
-      height: 48.12%; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .rightDetail {
-      float: right; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .leftDetail {
-      float: left; }
-    #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .centerDetail {
-      position: absolute;
-      margin: auto;
-      right: 0;
-      bottom: 0;
-      top: 0; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:first-child {
+        width: 37.5%; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:nth-child(2) {
+        width: 25%;
+        padding-left: 5px;
+        padding-right: 5px; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns:last-child {
+        width: 37.5%; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:first-child, #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(2) {
+        height: 35%;
+        padding-bottom: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .horizontalModule:nth-child(3) {
+        height: 30%; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:first-child {
+        height: 51.87%;
+        padding-bottom: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .verticalModule:nth-child(2) {
+        height: 48.12%; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .rightDetail {
+        float: right; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .leftDetail {
+        float: left; }
+      #wellcomeWrap #secondBlock .bodyBlock .innerColumns .innerModule .centerDetail {
+        position: absolute;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        top: 0; }
 
-#wellcomeWrap .introAnimation {
-  position: absolute;
+#wellcomeWrap ._a_fullWidth {
   width: 100%; }
+#wellcomeWrap ._a_fadeIn-up {
+  opacity: 0;
+  -webkit-transform: translate(0, 100px);
+  -moz-transform: translate(0, 100px);
+  -ms-transform: translate(0, 100px);
+  -o-transform: translate(0, 100px);
+  transform: translate(0, 100px); }
+#wellcomeWrap ._a_fadeIn-down-blocks {
+  opacity: 0;
+  -webkit-transform: translate(0, -50px);
+  -moz-transform: translate(0, -50px);
+  -ms-transform: translate(0, -50px);
+  -o-transform: translate(0, -50px);
+  transform: translate(0, -50px); }
+
+.redText {
+  color: #ea4544; }
+
+.blueText {
+  color: #bbe7ef; }
+
+.yellowText {
+  color: #ffbe34; }
+
+.greenText {
+  color: #ccda9d; }
 
 /*==========  Non-Mobile First Method  ==========*/
 /*==========  Horizontal Response Method  ==========*/
